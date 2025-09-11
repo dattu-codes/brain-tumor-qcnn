@@ -29,8 +29,23 @@ This project implements **Quantum Convolutional Neural Networks (QCNN)** for det
 ```bash
 git clone https://github.com/dattu-codes/brain-tumor-qcnn.git
 
+
+
+
 python train.py      # To train the QCNN model
 python predict.py    # To make predictions on new MRI images
 
 cd brain-tumor-qcnn
 pip install -r requirements.txt
+
+
+brain-tumor-qcnn/
+│
+├── train.py              # from my code above
+├── predict.py            # from my code above
+├── requirements.txt      # I’ll finalize for you below
+├── README.md             # you already wrote
+├── paper/                # optional: put your research paper here
+│   └── IEEE_Conference_Template.pdf
+└── .gitignore            # I’ll give you below
+
