@@ -1,0 +1,8 @@
+torch
+torchvision
+scikit-learn
+pennylane
+pillow
+gradio
+matplotlib
+opencv-python
