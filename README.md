@@ -1,2 +1,32 @@
-# brain-tumor-qcnn
-Brain Tumor Detection using Quantum CNN (QCNN)
+# Brain Tumor Detection using Quantum CNN (QCNN) 🧠
+
+This project implements **Quantum Convolutional Neural Networks (QCNN)** for detecting brain tumors from MRI scans, combining classical deep learning with quantum computing concepts for enhanced accuracy.
+
+---
+
+## Features
+- Preprocessing of MRI images (normalization, augmentation)
+- QCNN model implementation in Python (TensorFlow/Keras)
+- Achieves higher classification accuracy compared to traditional CNNs
+- Visual tumor detection using Matplotlib
+
+---
+
+## Tech Stack
+- Python
+- TensorFlow / Keras
+- Quantum Computing Concepts
+- Numpy, OpenCV, Matplotlib
+
+---
+
+## Dataset
+- Brain MRI images dataset from [Kaggle](https://www.kaggle.com/) *(or specify exact dataset if known)*
+
+---
+
+## Installation
+```bash
+git clone https://github.com/dattu-codes/brain-tumor-qcnn.git
+cd brain-tumor-qcnn
+pip install -r requirements.txt
