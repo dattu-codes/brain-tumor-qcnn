@@ -21,7 +21,7 @@ This project implements **Quantum Convolutional Neural Networks (QCNN)** for det
 ---
 
 ## Dataset
-- Brain MRI images dataset from [Kaggle](https://www.kaggle.com/) *(or specify exact dataset if known)*
+- Brain MRI images dataset from [Kaggle](https://www.kaggle.com/).
 
 ---
 
