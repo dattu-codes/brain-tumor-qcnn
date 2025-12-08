@@ -1,3 +1,7 @@
+!pip install pennylane
+!pip install --quiet gradio
+
+
 import os
 import torch
 import torchvision.transforms as transforms
@@ -10,7 +14,7 @@ import torch.nn.functional as F
 import torchvision.models as models
 
 # 1. Dataset Path - update this with your dataset folder path
-dataset_path = "data/brain_dataset"  # Expected subfolders: 'no_tumor', 'glioma', 'meningioma', 'pituitary'
+dataset_path = "/kaggle/input/karthik-braindataset-mri/brain_Tumor_karr"  # Expected subfolders: 'no_tumor', 'glioma', 'meningioma', 'pituitary'
 if not os.path.exists(dataset_path):
     raise FileNotFoundError(f"Dataset not found at {dataset_path}")
 
